@@ -1,0 +1,70 @@
+@charset "utf-8";
+html,body,ul,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,img{
+	margin: 0;
+	padding: 0;
+}
+img,input,button{
+	border: none;
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+img{
+	border: 0;
+	vertical-align: middle;
+}
+ul,li{
+	list-style: none;
+}
+s,i,em{
+	font-style: normal;
+	text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	*zoom:1;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+
+}
+h1,h2,h3,h4,h5,h6{
+ text-decoration: none;
+ font-weight: normal;
+}
+/*公共类*/
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.al{
+	text-align: left;
+}
+.ac{
+	text-align: center;
+}
+.ar{
+	text-align: right;
+}
+.hide{
+	display: none;
+}
+.f12{
+	font-size: 12px;
+}
